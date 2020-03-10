@@ -2,39 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a592db57-9a76-4a72-a1e4-fac71ceb9615" name="Default Changelist" comment="Elasticsearch-ais">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Estemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/EstemplateCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/annotation/Elasticsearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/annotation/ElasticsearchAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/EsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/restClient/RestPerform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/restClient/RestPerformIpml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/AutoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/EsAsyncRegistryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/EsRegistryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Bulk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Find.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Script.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Should.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/template/POJOTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/CollectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +48,8 @@
         <option value="lihang" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../demo" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -100,7 +74,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -111,7 +85,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bulk">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="Bulk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.elasticsearch.ais.staticString.Bulk" />
       <module name="ais" />
@@ -151,6 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ais.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootElasticsearchIbatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ais" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.elasticsearch.abis.SpringBootElasticsearchIbatisApplication" />
@@ -179,7 +160,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -204,12 +185,35 @@
       <workItem from="1583407090889" duration="24928000" />
       <workItem from="1583591112825" duration="19698000" />
       <workItem from="1583762893594" duration="8417000" />
-      <workItem from="1583776207227" duration="1474000" />
+      <workItem from="1583776207227" duration="3259000" />
+      <workItem from="1583861850988" duration="1653000" />
+      <workItem from="1583863868618" duration="508000" />
     </task>
+    <task id="LOCAL-00001" summary="Elasticsearch-ais">
+      <created>1583778636923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583778636923</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Elasticsearch-ais" />
@@ -233,78 +237,98 @@
     </state>
     <state x="511" y="108" width="374" height="628" key="#com.intellij.ide.util.MemberChooser/42.27.1324.741@42.27.1324.741" timestamp="1582051782643" />
     <state x="516" y="108" width="374" height="581" key="#com.intellij.ide.util.MemberChooser/50.27.1316.741@50.27.1316.741" timestamp="1583677116274" />
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1583778432345">
+    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1583864423948">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1583778432345" />
-    <state x="491" y="156" width="453" height="486" key="FileChooserDialogImpl" timestamp="1583778289707">
+    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1583864423948" />
+    <state x="172" y="86" width="1052" height="620" key="DiffContextDialog" timestamp="1583862042462">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state x="172" y="86" width="1052" height="620" key="DiffContextDialog/50.27.1316.741@50.27.1316.741" timestamp="1583862042462" />
+    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl" timestamp="1583864082787">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="486" y="156" width="424" height="486" key="FileChooserDialogImpl/42.27.1324.741@42.27.1324.741" timestamp="1582033008143" />
-    <state x="491" y="156" width="453" height="486" key="FileChooserDialogImpl/50.27.1316.741@50.27.1316.741" timestamp="1583778289707" />
+    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl/50.27.1316.741@50.27.1316.741" timestamp="1583864082787" />
     <state x="493" y="305" key="Github.CreateGistDialog" timestamp="1583778218600">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="493" y="305" key="Github.CreateGistDialog/50.27.1316.741@50.27.1316.741" timestamp="1583778218600" />
-    <state width="631" height="126" key="GridCell.Tab.0.bottom" timestamp="1583778198405">
+    <state x="559" y="282" width="298" height="318" key="Github.ShareDialog" timestamp="1583809850865">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state x="559" y="282" width="298" height="318" key="Github.ShareDialog/50.27.1316.741@50.27.1316.741" timestamp="1583809850865" />
+    <state width="658" height="132" key="GridCell.Tab.0.bottom" timestamp="1583863992844">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.bottom/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.bottom/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="631" height="126" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1583778198405" />
-    <state width="631" height="126" key="GridCell.Tab.0.center" timestamp="1583778198404">
+    <state width="658" height="132" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1583863992844" />
+    <state width="658" height="132" key="GridCell.Tab.0.center" timestamp="1583863992842">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.center/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.center/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="631" height="126" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1583778198404" />
-    <state width="631" height="126" key="GridCell.Tab.0.left" timestamp="1583778198402">
+    <state width="658" height="132" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1583863992842" />
+    <state width="658" height="132" key="GridCell.Tab.0.left" timestamp="1583863992841">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.left/40.27.1326.741@40.27.1326.741" timestamp="1582080244227" />
     <state width="1274" height="173" key="GridCell.Tab.0.left/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="631" height="126" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1583778198402" />
-    <state width="631" height="126" key="GridCell.Tab.0.right" timestamp="1583778198405">
+    <state width="658" height="132" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1583863992841" />
+    <state width="658" height="132" key="GridCell.Tab.0.right" timestamp="1583863992843">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.right/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.right/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="631" height="126" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1583778198405" />
-    <state width="1266" height="230" key="GridCell.Tab.1.bottom" timestamp="1582876700635">
+    <state width="658" height="132" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1583863992843" />
+    <state width="658" height="132" key="GridCell.Tab.1.bottom" timestamp="1583863992846">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.bottom/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1266" height="230" key="GridCell.Tab.1.bottom/50.27.1316.741@50.27.1316.741" timestamp="1582876700635" />
-    <state width="1266" height="230" key="GridCell.Tab.1.center" timestamp="1582876700634">
+    <state width="658" height="132" key="GridCell.Tab.1.bottom/50.27.1316.741@50.27.1316.741" timestamp="1583863992846" />
+    <state width="658" height="132" key="GridCell.Tab.1.center" timestamp="1583863992845">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.center/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1266" height="230" key="GridCell.Tab.1.center/50.27.1316.741@50.27.1316.741" timestamp="1582876700634" />
-    <state width="1266" height="230" key="GridCell.Tab.1.left" timestamp="1582876700633">
+    <state width="658" height="132" key="GridCell.Tab.1.center/50.27.1316.741@50.27.1316.741" timestamp="1583863992845" />
+    <state width="658" height="132" key="GridCell.Tab.1.left" timestamp="1583863992845">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.left/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1266" height="230" key="GridCell.Tab.1.left/50.27.1316.741@50.27.1316.741" timestamp="1582876700633" />
-    <state width="1266" height="230" key="GridCell.Tab.1.right" timestamp="1582876700634">
+    <state width="658" height="132" key="GridCell.Tab.1.left/50.27.1316.741@50.27.1316.741" timestamp="1583863992845" />
+    <state width="658" height="132" key="GridCell.Tab.1.right" timestamp="1583863992846">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.right/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1266" height="230" key="GridCell.Tab.1.right/50.27.1316.741@50.27.1316.741" timestamp="1582876700634" />
+    <state width="658" height="132" key="GridCell.Tab.1.right/50.27.1316.741@50.27.1316.741" timestamp="1583863992846" />
     <state x="241" y="55" width="924" height="686" key="Maven.ArtifactSearchDialog" timestamp="1582364934510">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="241" y="55" width="924" height="686" key="Maven.ArtifactSearchDialog/50.27.1316.741@50.27.1316.741" timestamp="1582364934510" />
+    <state x="291" y="89" width="824" height="615" key="NewModule_or_Project.wizard" timestamp="1583863916143">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state x="291" y="89" width="824" height="615" key="NewModule_or_Project.wizard/50.27.1316.741@50.27.1316.741" timestamp="1583863916143" />
     <state x="182" y="32" width="1052" height="732" key="SettingsEditor" timestamp="1582532494122">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="173" y="32" key="SettingsEditor/40.27.1326.741@40.27.1326.741" timestamp="1582079764484" />
     <state x="175" y="32" key="SettingsEditor/42.27.1324.741@42.27.1324.741" timestamp="1582052107150" />
     <state x="182" y="32" width="1052" height="732" key="SettingsEditor/50.27.1316.741@50.27.1316.741" timestamp="1582532494122" />
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1583864371697">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1583864371697" />
     <state x="347" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583776662255">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="308" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583152644392" />
     <state x="347" y="225" key="com.intellij.ide.util.TipDialog/50.27.1316.741@50.27.1316.741" timestamp="1583776662255" />
+    <state x="331" y="178" width="737" height="433" key="git4idea.merge.GitPullDialog" timestamp="1583863008669">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state x="331" y="178" width="737" height="433" key="git4idea.merge.GitPullDialog/50.27.1316.741@50.27.1316.741" timestamp="1583863008669" />
     <state x="50" y="100" width="1306" height="596" key="new project wizard" timestamp="1582616447279">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
