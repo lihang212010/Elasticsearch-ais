@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a592db57-9a76-4a72-a1e4-fac71ceb9615" name="Default Changelist" comment="Elasticsearch-ais">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a592db57-9a76-4a72-a1e4-fac71ceb9615" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Estemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/EstemplateCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Factory/EsAsyncFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Factory/EsAsyncProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Factory/EsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Factory/EsProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/annotation/Elasticsearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/annotation/ElasticsearchAsync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/EsClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/EsClient$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/EsClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/Scanner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/Scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/restClient/RestPerform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/restClient/RestPerformIpml$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/restClient/RestPerformIpml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/service/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/service/EsAsyncRegistryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/service/EsRegistryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Bulk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Find.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Script.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Should.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/template/POJOTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/utils/CollectUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/utils/JsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +78,8 @@
         <option value="lihang" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../demo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MavenImportPreferences">
@@ -187,7 +218,7 @@
       <workItem from="1583762893594" duration="8417000" />
       <workItem from="1583776207227" duration="3259000" />
       <workItem from="1583861850988" duration="1653000" />
-      <workItem from="1583863868618" duration="508000" />
+      <workItem from="1583863868618" duration="7501000" />
     </task>
     <task id="LOCAL-00001" summary="Elasticsearch-ais">
       <created>1583778636923</created>
@@ -196,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583778636923</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Elasticsearch-ais&#10;使用例子">
+      <created>1583864424679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583864424679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,9 +255,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Elasticsearch-ais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elasticsearch-ais" />
+    <MESSAGE value="Elasticsearch-ais&#10;使用例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elasticsearch-ais&#10;使用例子" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="303" y="59" width="800" height="675" key="#Notifications" timestamp="1583897296277">
+      <screen x="50" y="27" width="1316" height="741" />
+    </state>
+    <state x="303" y="59" width="800" height="675" key="#Notifications/50.27.1316.741@50.27.1316.741" timestamp="1583897296277" />
     <state x="303" y="59" width="853" height="675" key="#Project_Structure" timestamp="1583773863574">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
@@ -258,50 +301,50 @@
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="559" y="282" width="298" height="318" key="Github.ShareDialog/50.27.1316.741@50.27.1316.741" timestamp="1583809850865" />
-    <state width="658" height="132" key="GridCell.Tab.0.bottom" timestamp="1583863992844">
+    <state width="1316" height="240" key="GridCell.Tab.0.bottom" timestamp="1583927397482">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.bottom/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.bottom/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="658" height="132" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1583863992844" />
-    <state width="658" height="132" key="GridCell.Tab.0.center" timestamp="1583863992842">
+    <state width="1316" height="240" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1583927397482" />
+    <state width="1316" height="240" key="GridCell.Tab.0.center" timestamp="1583927397481">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.center/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.center/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="658" height="132" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1583863992842" />
-    <state width="658" height="132" key="GridCell.Tab.0.left" timestamp="1583863992841">
+    <state width="1316" height="240" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1583927397481" />
+    <state width="1316" height="240" key="GridCell.Tab.0.left" timestamp="1583927397478">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.left/40.27.1326.741@40.27.1326.741" timestamp="1582080244227" />
     <state width="1274" height="173" key="GridCell.Tab.0.left/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="658" height="132" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1583863992841" />
-    <state width="658" height="132" key="GridCell.Tab.0.right" timestamp="1583863992843">
+    <state width="1316" height="240" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1583927397478" />
+    <state width="1316" height="240" key="GridCell.Tab.0.right" timestamp="1583927397481">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.right/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.right/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="658" height="132" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1583863992843" />
-    <state width="658" height="132" key="GridCell.Tab.1.bottom" timestamp="1583863992846">
+    <state width="1316" height="240" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1583927397481" />
+    <state width="1316" height="239" key="GridCell.Tab.1.bottom" timestamp="1583897322251">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.bottom/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="658" height="132" key="GridCell.Tab.1.bottom/50.27.1316.741@50.27.1316.741" timestamp="1583863992846" />
-    <state width="658" height="132" key="GridCell.Tab.1.center" timestamp="1583863992845">
+    <state width="1316" height="239" key="GridCell.Tab.1.bottom/50.27.1316.741@50.27.1316.741" timestamp="1583897322251" />
+    <state width="1316" height="239" key="GridCell.Tab.1.center" timestamp="1583897322250">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.center/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="658" height="132" key="GridCell.Tab.1.center/50.27.1316.741@50.27.1316.741" timestamp="1583863992845" />
-    <state width="658" height="132" key="GridCell.Tab.1.left" timestamp="1583863992845">
+    <state width="1316" height="239" key="GridCell.Tab.1.center/50.27.1316.741@50.27.1316.741" timestamp="1583897322250" />
+    <state width="1316" height="239" key="GridCell.Tab.1.left" timestamp="1583897322250">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.left/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="658" height="132" key="GridCell.Tab.1.left/50.27.1316.741@50.27.1316.741" timestamp="1583863992845" />
-    <state width="658" height="132" key="GridCell.Tab.1.right" timestamp="1583863992846">
+    <state width="1316" height="239" key="GridCell.Tab.1.left/50.27.1316.741@50.27.1316.741" timestamp="1583897322250" />
+    <state width="1316" height="239" key="GridCell.Tab.1.right" timestamp="1583897322251">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.right/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="658" height="132" key="GridCell.Tab.1.right/50.27.1316.741@50.27.1316.741" timestamp="1583863992846" />
+    <state width="1316" height="239" key="GridCell.Tab.1.right/50.27.1316.741@50.27.1316.741" timestamp="1583897322251" />
     <state x="241" y="55" width="924" height="686" key="Maven.ArtifactSearchDialog" timestamp="1582364934510">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
@@ -316,10 +359,10 @@
     <state x="173" y="32" key="SettingsEditor/40.27.1326.741@40.27.1326.741" timestamp="1582079764484" />
     <state x="175" y="32" key="SettingsEditor/42.27.1324.741@42.27.1324.741" timestamp="1582052107150" />
     <state x="182" y="32" width="1052" height="732" key="SettingsEditor/50.27.1316.741@50.27.1316.741" timestamp="1582532494122" />
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1583864371697">
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1583897268472">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1583864371697" />
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1583897268472" />
     <state x="347" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583776662255">
       <screen x="50" y="27" width="1316" height="741" />
     </state>

@@ -10,9 +10,18 @@
     </parent>
     <groupId>com.elasticsearch</groupId>
     <artifactId>ais</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>spring-boot-elasticsearch-ais</name>
     <description>一个Elasticsearch的简单使用框架，使用类似mybatis方式操作elasricsearch</description>
+
+    <developers>
+        <developer>
+            <email>13733109873@139.com</email>
+            <name>Hang Li</name>
+            <url>https://github.com/lihang212010/Elasticsearch-ais</url>
+        </developer>
+    </developers>
+
 
     <properties>
         <java.version>1.8</java.version>
