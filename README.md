@@ -2,7 +2,10 @@
 ELASTICSEARCH-AIS
 
 demo地址：[https://github.com/lihang212010/Elasticsearch-ais-demo](https://github.com/lihang212010/Elasticsearch-ais-demo)
-使用手册 ：
+
+使用手册 ：[http://node-2:8080/ais/Elasticsearch-ais/Elasticsearch-ais.html](http://node-2:8080/ais/Elasticsearch-ais/Elasticsearch-ais.html)
+
+User manual：[http://node-2:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html](http://node-2:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html)
 
 English explanation: [https://github.com/lihang212010/Elasticsearch-ais/blob/master/README_English.md)
 
