@@ -2,6 +2,134 @@
 ELASTICSEARCH-AIS
 
 demo地址：[https://github.com/lihang212010/Elasticsearch-ais-demo](https://github.com/lihang212010/Elasticsearch-ais-demo)
+使用手册 
+
+为什么使用ais
+
+更简单接近原生的代码操作
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+estemplate.term("worker","farmer");  //这是查询worker属性为farmer的结果
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+自动映射结果
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    @RequestMapping("terms")
+    public List<User> terms() throws IOException {
+        estemplate.terms("age",25,35,10,68);
+        return estemplate.execute(index,User.class);
+    }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+可以直接复制kibana中的代码
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    @RequestMapping("/findCustom")
+    public List<User>  findCustom(User user) throws IllegalAccessException, NoSuchFieldException, IOException {
+        String script="GET demo/_search\n" +
+                "{\n" +
+                "  \"query\": {\n" +
+                "    \"bool\": {\n" +
+                "      \"must\": [\n" +
+                "        {\n" +
+                "          \"wildcard\": {\n" +
+                "            \"name\": {\n" +
+                "              \"value\": \"#{name}\"\n" +
+                "            }\n" +
+                "          }\n" +
+                "        },\n" +
+                "        {\n" +
+                "          \"term\": {\n" +
+                "            \"id\": {\n" +
+                "              \"value\": \"#{id}\"\n" +
+                "            }\n" +
+                "          }\n" +
+                "        }\n" +
+                "      ],\n" +
+                "      \"must_not\": [\n" +
+                "        {\n" +
+                "          \"range\": {\n" +
+                "            \"age\": {\n" +
+                "              \"gte\": #{age}\n" +
+                "            }\n" +
+                "          }\n" +
+                "        }\n" +
+                "      ]\n" +
+                "    }\n" +
+                "  },\n" +
+                "  \"from\": \"#{pageFrom}\",\n" +
+                "  \"size\": \"#{pageSize}\"\n" +
+                "}";
+       return estemplateCustom.excute(script,user);
+    }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+对复杂需求的处理可以使用json和java代码
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@Elasticsearch
+public interface UserJson {
+    List<User> findName(String name);
+    List<User> findIdName(String name,String id);
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{
+  "findName": {
+    "requestMethod": "GET",
+    "index": "demo/_search",
+    "script": {
+      "query": {
+        "wildcard": {
+          "name": {
+            "value": "#{name}"
+          }
+        }
+      }
+    }
+  },
+
+  "findIdName": {
+
+    "requestMethod": "GET",
+    "index": "demo/_search",
+    "script": {
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "wildcard": {
+                "name": {
+                  "value": "#{name}"
+                }
+              }
+            },
+            {
+              "term": {
+                "id": {
+                  "value": "#{id}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 
 简单配置
 elasticsearch.ais.url=node-3:9200                            集群则用逗号隔开
