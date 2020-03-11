@@ -6,7 +6,7 @@ demo地址：[https://github.com/lihang212010/Elasticsearch-ais-demo](https://gi
 
 为什么使用ais
 
-更简单接近原生的代码操作
+更简单接近kibana的代码操作
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 estemplate.term("worker","farmer");  //这是查询worker属性为farmer的结果
