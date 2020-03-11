@@ -4,9 +4,9 @@ ELASTICSEARCH-AIS
 demo地址：[https://github.com/lihang212010/Elasticsearch-ais-demo](https://github.com/lihang212010/Elasticsearch-ais-demo)
 使用手册 
 
-为什么使用ais
 
-更简单接近kibana的代码操作
+
+更简单接近原生的代码操作
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 estemplate.term("worker","farmer");  //这是查询worker属性为farmer的结果
@@ -129,8 +129,6 @@ public interface UserJson {
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-
-
 简单配置
 elasticsearch.ais.url=node-3:9200                            集群则用逗号隔开
 
@@ -152,8 +150,10 @@ elasticsearch.ais.value=""                                                请求
 
 elasticsearch.ais.jsonPath=static                               json文件路径
 
+
 ESTEPLATE，最简单的操作
 Esteplate是ais中最简单也是最常用的操作Elasticsearch的操作方式，它可以让你只用几行代码就轻松实现所需要的功能。
+
 在使用的时候我们只需要借助spring中的注入，便可以轻松使用
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -204,6 +204,7 @@ index是需要删除的对应索引，id则是需要删除的id
 
 查询
 查询是Elasticsearch中最重要最常用的功能
+
 而ais简化了足够平常工作需求的查询操作，对于过于复杂的操作，Elasticsearch也提供了类似Mybatis的方式进行操作。
 
 
@@ -227,7 +228,9 @@ index是需要删除的对应索引，id则是需要删除的id
 
 插入
 ais支持3种方式的插入,批量插入和单一一条数据的插入，它插入的对应api只有一行
+
 estemplate.insert(list,index);
+
 list为需要插入的数据，它支持3种方式，List，Map，和单一实体类，index为对应索引（elasticsearch7中抛弃了type）
 
 
@@ -279,21 +282,29 @@ map中的键为你需要设置的id，值则是对应的数据
 
 
 
+
 查询规则
 Esteplate默认所有查询为query查询，但是同样支持过滤查询，这里简单说一下Elasticsearch的2种查询，过滤查询（filter）和评分查询（query），评分查询会对查询结果进行打分排序，但性能方面略次于过滤查询，因此我们可以对不要求查询结果的选项进行过滤查询
 
 Esteplate的将查询分为4类
+
 must                  必须满足的查询
+
 must_not         必须不满足的查询
+
 filter_must               必须满足的过滤查询
+
 filter_must_not      必须不满足的过滤查询
 
 Esteplate的默认查询为must查询，但是可以在第一个参数中修改本次查询的查询方式
 
 如：
 estemplate.term("worker","farmer");  //这是查询worker属性为farmer的结果
+
 estemplate.term("must_not","worker","farmer");   //这是查询worker属性不为farmer的结果
+
 estemplate.term("filter_must","worker","farmer");   //这是通过过滤查询查询worker属性为farmer的结果
+
 estemplate.term("filter_must_not","worker","farmer");   //这是通过过滤查询查询worker属性不为farmer的结果
 
 Esteplate会默跳过空值
@@ -309,14 +320,11 @@ worker如果为空值，则本次查询将只对name和age进行查询
 
 
 查询相关API
-
 这些API如果你操纵过kibana，一定会非常属性，他和Elasticsearch中的名字是相同的，如果你不太明白，本文将提供一些简单的使用场景，对于每一个查询的具体内容，更建议Elasticsearch官方文档
-
 .
 .
 .
 查询常用参数
-
 type，           查询的方式，默认为must，可以选择must_not，filter_must ，filter_must_not
 
 key，             对应字段，查询的对应属性在Elasticsearch中名称
@@ -327,8 +335,8 @@ index              对应索引
 
 boost              排名分数比例，默认为1
 
-
 具体API
+
 
 查询相关的API
 
@@ -362,13 +370,15 @@ ids                             id查询，必备参数values，可以是一个i
 
 multi_match          多字段分词查询，必备参数value，需要查找的值，keys，对应的字段数组，可选参数：type
 
-more_like_this      必须包含词查询，要求某（一个或多个）字段内容必须包含某一分词，必备参数：value：必须包含的分词，keys：字段，可以是一个或多个，min_term_freq：最小包含数目，max_query_terms：最多包含数目，可选参数：type
+more_like_this      必须包含词查询，要求某（一个或多个）字段内容必须包含某一分词，必备参数：value：必须包含的分词，keys：字段，可以是一个或多个，min_term_freq：最小包含数目，
+max_query_terms：最多包含数目，可选参数：type
 
 percolate                 索引属性查询，对某一字段的索引属性进行查询，必备字段：key，value，field：存索引查询 的类型的字段，可选参数，type
 
 prefix                        左模糊（较为推荐），必备字段，key，value，可选参数：boost，type
 
 query_string           较为严格的字符串查询（可以进行和或非等操作，但如果查询中包含无效内容，则查询失败），必备字段：default_field：对应字段，query_：查询内容，可选参数：type
+
 
 range                         范围查询，必备参数：key，gte：大于等于的数值，lte小于等于的数值，可选参数：type
 
@@ -387,6 +397,7 @@ wripper                        接受其他查询内容的查询，必备参数�
 findFree                        插入Elasticsearch原生的语句，默认参数：query：插入的语句，可选参数：type
 
 should                       可以进行或之类的操作，也可以进行加分，minimum_should_match：最少满足多少项
+
 
 .
 .
@@ -415,6 +426,7 @@ profile                      是否查看具体的聚合搜索过程以及具体
 
 partial_fields          更加强大更为推荐的字段筛选
 
+
 indices_boost         相关度控制
 
 highlight                   高亮，可选字段pre_tags：高亮字段前面添加内容，post_tags：后面添加内容
@@ -424,6 +436,7 @@ explain                      是否开启查看如何评分
 collapse                    字段折叠
 
 docvalue_fields      另一种查询，节省空间但会禁止使用sort、aggregate、access the field from script等
+
 
 
 查询结果：（以下3种查询均匀异步查询方法，使用方法类似）
@@ -506,9 +519,14 @@ GET demo/_search
 
 MATCH
 match是分词查询，什么是分词查询
+
+
 比如：我们是朋友
+
 它是由我们，朋友，是3个词组成的
+
 在elasticsearch使用match查询这3个词中的任意一个都应该得到我们是朋友结果。
+
 同样我们的查询内容也会被分词，然后去和文章内容的分词比较
 
 match查询是elasticsearch中的核心查询，对于中文查询来说比较著名的是IK分词器
@@ -535,6 +553,7 @@ TERMS
 terms又叫包含查询
 例如
 estemplate.terms("age",25,35,10,68);
+
 它可以查询age属性为23,35,10,68的所有数据，也可以查询age是一个数组，数组中有这几个数字中的数据
 比如在程序中执行后这是我得到的一些结果
 
@@ -564,6 +583,7 @@ match_phrase是短语查询
 
 
 estemplate.match_phrase("title","We  friends",2);    
+
 2是允许词与词之间最大相隔几个单词
 在文中title的内容为We are good friends，而我们查询的内容是We friends，中间少一个good，但是我们允许词与词之间可以有2个相隔单词，所以可以查询到对应内容
 
@@ -596,6 +616,7 @@ match_phrase_prefix 比起match_phrase多了个前缀查询
 
 还是这组数据
 estemplate.match_phrase_prefix("title","We  good f",2);
+
 这句话的意思是查询语句中We are good然后下一个单词的首字母为f开头的数据，可以允许最多空2个词
 
 
@@ -624,8 +645,11 @@ GET demo/_search
 
 COMMON
 common主要作用是排除查询选项中一些常用词比如英语中的is，are，汉语中的是，我，他之类
+
 参数：cutoff_frequency：出现的频率
+
 使用方式
+
 estemplate.common("title","We are",0.01);
 
 kibana中
@@ -710,13 +734,19 @@ GET demo/_search
 
 IDS
 查询某一个id，注意Elasticsearch一般是独立与存储数据的，所以一般会设置id等于数据中的某一字段
+
 使用方式
+
 estemplate.ids("09EprnABqEAuwq_e8YJH","19EprnABqEAuwq_e8YJH");
+
 查询这2个id的对应数据
 
 
+
 或者
+
 estemplate.ids("09EprnABqEAuwq_e8YJH");
+
 查询此id对应数据
 
 
@@ -748,6 +778,7 @@ MULTI_MATCH
 multi_match          多字段分词查询
 .
 estemplate.multi_match("are","name","title");
+
 查询在name和title字段中含有are单词的数据
 .
 kibana中代码
@@ -775,9 +806,11 @@ GET demo/_search
 
 
 MORE_LIKE_THIS
-more_like_this      必须包含词查询，要求某（一个或多个）字段内容必须包含某一分词，必备参数：value：必须包含的分词，keys：字段，可以是一个或多个，min_term_freq：最小包含数目，max_query_terms：最多包含数目，可选参数：type
+more_like_this      必须包含词查询，要求某（一个或多个）字段内容必须包含某一分词，必备参数：value：必须包含的分词，keys：字段，可以是一个或多个，min_term_freq：最小包含数目，
+  max_query_terms：最多包含数目，可选参数：type
 .
 estemplate.more_like_this(1,10,"are","title");
+
 作用：查询出字段title中含有1-10个are的数据
 .
 kibana中代码
@@ -807,8 +840,11 @@ GET demo/_search
 
 PREFIX
 左模糊查询
+
 estemplate.prefix("name","李");
+
 查询所有姓“李”的
+
 .
 kibana中代码
 
@@ -836,8 +872,10 @@ QUERY_STRING
 query_string           较为严格的字符串查询（可以进行和或非等操作，但如果查询中包含无效内容，则查询失败），必备字段：default_field：对应字段，query_：查询内容，可选参数：type
 
 estemplate.query_string("name","(孙李) OR (李周)");
+
 查询name为孙李或者李周的人
 .
+
 kibana中
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -864,12 +902,16 @@ RANGE
 range                         范围查询，必备参数：key，gte：大于等于的数值，lte小于等于的数值，可选参数：type
 .
 estemplate.range("age",10,100);
+
 查询age在10和100之间的数据
 .
 
 estemplate.rangelte("age",100);
+
 查询age小于100的数据
+
 estemplate.rangegte("age",10);
+
 查询age大于10的数据
 .
 kibana中语句
@@ -899,7 +941,9 @@ REGEXP
 regexp                         正则查询，必备参数：key，value，可选参数：max_determinized_states：查询所需最大数目，默认10000,flags：可选运算符，type
 .
 estemplate.regexp("name","孙.?");
+
 查询孙开头的字
+
 当然正则表达式的写法很多，几乎可以满足所有需求，大家可以自行百度
 .
 kibana中代码
@@ -926,9 +970,11 @@ GET demo/_search
 
 SCRIPT
 script                          脚本，可以自由植入自己想进行的语句，必备参数：source：植入的脚本，可选参数，lang，params，type
+
 script是高级elasticsearch程序员的必备技能，它使用了另一种语言，本文将不在具体解释，只提供一个简单例子
 .
 estemplate.script("doc['age']>10");
+
 查询age大于10的数据
 .
 kibana中代码
@@ -1064,6 +1110,7 @@ public class FindController {
 
 修改
 修改有3种，一种是修改单一属性的
+
 Map中的key为你要修改的字段，value为要修改的值
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1101,6 +1148,7 @@ Map中的key为你要修改的字段，value为要修改的值
 
 删除
 删除ais有2种删除
+
 一种是根据id删除,可以根据一个或多个id
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
