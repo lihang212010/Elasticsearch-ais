@@ -1,5 +1,37 @@
 ELASTICSEARCH-AIS
+
+
+User manual：[http://49.232.76.209:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html](http://49.232.76.209:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html)
+
+maven：pom.xml
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        <dependency>
+            <groupId>com.github.lihang212010</groupId>
+            <artifactId>ais</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client</artifactId>
+            <version>7.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.58</version>
+            <optional>true</optional>
+        </dependency>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 Why use AIS
+
+
+
 
 Simpler code operation close to kibana
 
