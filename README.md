@@ -1,11 +1,33 @@
 # Elasticsearch-ais
 ELASTICSEARCH-AIS
+maven导入：pom.xml
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        <dependency>
+            <groupId>com.github.lihang212010</groupId>
+            <artifactId>ais</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client</artifactId>
+            <version>7.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.58</version>
+            <optional>true</optional>
+        </dependency>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 demo地址：[https://github.com/lihang212010/Elasticsearch-ais-demo](https://github.com/lihang212010/Elasticsearch-ais-demo)
 
-使用手册 ：[http://node-2:8080/ais/Elasticsearch-ais/Elasticsearch-ais.html](http://node-2:8080/ais/Elasticsearch-ais/Elasticsearch-ais.html)
+使用手册 ：[http://49.232.76.209:8080/ais/Elasticsearch-ais/Elasticsearch-ais.html](http://49.232.76.209:8080/ais/Elasticsearch-ais/Elasticsearch-ais.html)
 
-User manual：[http://node-2:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html](http://node-2:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html)
+User manual：[http://49.232.76.209:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html](http://49.232.76.209:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html)
 
 English explanation: [https://github.com/lihang212010/Elasticsearch-ais/blob/master/README_English.md)
 
