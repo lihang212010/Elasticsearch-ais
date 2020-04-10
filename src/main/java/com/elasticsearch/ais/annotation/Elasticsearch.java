@@ -9,7 +9,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * . Corresponding annotation of binding JSON
+ *  Corresponding annotation of binding JSON.
  *
  * @author lihang
  * @email 631533483@qq.com

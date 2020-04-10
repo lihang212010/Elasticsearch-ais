@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 
 
 /**
- * . scan Elasticsearch annotation
+ * scan Elasticsearch annotation.
  *
  * @author lihang
  * @email 631533483@qq.com
@@ -30,7 +30,7 @@ public class Scanner {
   private Logger log = LoggerFactory.getLogger(Scanner.class);
 
   /**
-   * . 从包package中获取所有的Class Get class of annotation class
+   * 从包package中获取所有的Class Get class of annotation class.
    *
    * @param packageName packageName
    * @return Classes with annotations

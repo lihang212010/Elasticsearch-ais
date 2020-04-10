@@ -8,7 +8,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * . Corresponding annotation of binding JSON(async , under development)
+ * Corresponding annotation of binding JSON(async , under development).
  *
  * @author lihang
  * @email 631533483@qq.com

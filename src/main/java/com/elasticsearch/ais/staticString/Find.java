@@ -970,9 +970,10 @@ public class Find {
 
   /**
    * A query that accepts any other query as base64 encoded string.
+   *
    * @param query Base64 encoded string
    * @return String script
-   * */
+   */
   public static String wripper(String query) {
     if (StringUtils.isNotBlank(query)) {
       String script = "{\n"

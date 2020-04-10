@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * . Dynamic proxy with ElasticsearchAsync annotation interface(Spring)
+ * Dynamic proxy with ElasticsearchAsync annotation interface(Spring).
  *
  * @author lihang
  * @email 631533483@qq.com
@@ -38,10 +38,11 @@ public class EsProxy implements InvocationHandler {
   }
 
 
-  /**.
-   *Replace parameters and compose correct script query
+  /**
+   * Replace parameters and compose correct script query.
+   *
    * @return Query results of elastic search
-   * */
+   */
   @Override
   public Object invoke(Object o, Method method, Object[] objects) throws Throwable {
     RestPerform restPerform = new RestPerformIpml(new EsClient(Config.getConfig()));

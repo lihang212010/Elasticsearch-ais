@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a592db57-9a76-4a72-a1e4-fac71ceb9615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Estemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Estemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/EstemplateCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/EstemplateCustom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsFactory.java" afterDir="false" />
@@ -235,7 +231,7 @@
       <workItem from="1585624411806" duration="399000" />
       <workItem from="1585628083629" duration="102000" />
       <workItem from="1585628353043" duration="307000" />
-      <workItem from="1586504107453" duration="14021000" />
+      <workItem from="1586504107453" duration="16919000" />
     </task>
     <task id="LOCAL-00001" summary="Elasticsearch-ais">
       <created>1583778636923</created>
@@ -258,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583941091097</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Elasticsearch-ais&#10;javadoc">
+      <created>1586539403290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586539403290</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +283,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Elasticsearch-ais&#10;使用例子" />
     <MESSAGE value="Elasticsearch-ais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elasticsearch-ais" />
+    <MESSAGE value="Elasticsearch-ais&#10;javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elasticsearch-ais&#10;javadoc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="303" y="59" width="800" height="675" key="#HTTP_Proxy" timestamp="1584172730634">
@@ -316,10 +320,10 @@
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="427" y="216" width="552" height="360" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.27.1316.741@50.27.1316.741" timestamp="1586515139404" />
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1583941090721">
+    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1586539402833">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1583941090721" />
+    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1586539402833" />
     <state x="172" y="86" width="1052" height="620" key="DiffContextDialog" timestamp="1583862042462">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
@@ -395,10 +399,10 @@
     <state x="173" y="32" key="SettingsEditor/40.27.1326.741@40.27.1326.741" timestamp="1582079764484" />
     <state x="175" y="32" key="SettingsEditor/42.27.1324.741@42.27.1324.741" timestamp="1582052107150" />
     <state x="175" y="32" width="1052" height="732" key="SettingsEditor/50.27.1316.741@50.27.1316.741" timestamp="1586509117920" />
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1586539368457">
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1586539413566">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1586539368457" />
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1586539413566" />
     <state x="347" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585628372726">
       <screen x="50" y="27" width="1316" height="741" />
     </state>

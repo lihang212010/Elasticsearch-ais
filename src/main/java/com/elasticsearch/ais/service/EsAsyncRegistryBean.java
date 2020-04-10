@@ -22,7 +22,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.core.io.ClassPathResource;
 
 /**
- * . <p>register spring bean,Register as class name, first level letter is lowercase</p>
+ * <p>register spring bean,Register as class name, first level letter is lowercase.</p>
  *
  * @author lihang
  * @email 631533483@qq.com

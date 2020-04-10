@@ -4,7 +4,7 @@ import org.springframework.beans.factory.FactoryBean;
 import org.springframework.stereotype.Component;
 
 /**
- * . Dynamic proxy with Elasticsearch annotation interface(Spring)
+ * Dynamic proxy with Elasticsearch annotation interface(Spring).
  *
  * @author lihang
  * @email 631533483@qq.com

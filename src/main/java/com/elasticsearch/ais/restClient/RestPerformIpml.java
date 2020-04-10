@@ -120,7 +120,7 @@ public class RestPerformIpml implements RestPerform {
   }
 
   /**
-   * . 异步执行无返回值 async no result
+   * 异步执行无返回值 async no result.
    */
   public void executeAsync(String method, String endpoint, String script,
       ResponseListener responseListener) throws IOException {

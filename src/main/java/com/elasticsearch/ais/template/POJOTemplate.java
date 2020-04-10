@@ -2,16 +2,19 @@ package com.elasticsearch.ais.template;
 
 import com.alibaba.fastjson.JSONObject;
 import com.elasticsearch.ais.Estemplate;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-/*
- *@author:lihang
- *@email:631533483@qq.com
+
+/**
+ * Query template, inherit when using.
+ *
+ * @param <T> field entity
+ * @author lihang
+ * @email 631533483@qq.com
  */
 @Component
 public abstract class POJOTemplate<T> {
@@ -24,13 +27,14 @@ public abstract class POJOTemplate<T> {
     return index;
   }
 
+  public void setIndex(String index) {
+    this.index = index;
+  }
+
   public abstract void setIndex();
 
   public abstract void setConfig(T entity);
 
-  public void setIndex(String index) {
-    this.index = index;
-  }
 
   public abstract void findRule(T entity);
 
@@ -42,7 +46,12 @@ public abstract class POJOTemplate<T> {
     this.findRule(entity);
   }
 
-
+  /**
+   * find.
+   *
+   * @param entity data
+   * @return JSON
+   */
   public JSONObject findJson(T entity) throws IOException {
     this.setIndex();
     this.setConfig(entity);
@@ -50,6 +59,12 @@ public abstract class POJOTemplate<T> {
     return estemplate.executeJSON("get", index + "/_search");
   }
 
+  /**
+   * find.
+   *
+   * @param entity data
+   * @return List data
+   */
   public List<T> find(T entity) throws IOException {
     this.setIndex();
     this.setConfig(entity);
@@ -57,32 +72,71 @@ public abstract class POJOTemplate<T> {
     return (List<T>) estemplate.execute("get", index + "/_search", entity.getClass());
   }
 
+  /**
+   * delete.
+   *
+   * @param entity data
+   * @return JSON
+   */
   public JSONObject delete(T entity) throws IOException {
     this.setIndex();
     this.deleteRule(entity);
     return estemplate.executeJSON("post", index + "/_delete_by_query");
   }
 
+  /**
+   * delete.
+   *
+   * @param id ids
+   * @return JSON
+   */
   public JSONObject delete(String... id) throws IOException {
     this.setIndex();
     return estemplate.delete(index, id);
   }
 
-  public JSONObject insert(T tclass) throws IOException {
+  /**
+   * insert.
+   *
+   * @param entity data
+   * @return JSON
+   */
+  public JSONObject insert(T entity) throws IOException {
     this.setIndex();
-    return estemplate.insert(tclass, index);
+    return estemplate.insert(entity, index);
   }
 
-  public JSONObject insert(List<T> classList) throws IOException {
+  /**
+   * insert.
+   *
+   * @param entityList list data
+   * @return JSON
+   */
+  public JSONObject insert(List<T> entityList) throws IOException {
     this.setIndex();
-    return estemplate.insert(classList, index);
+    return estemplate.insert(entityList, index);
   }
 
+  /**
+   * insert.
+   *
+   * @param <K>   id
+   * @param <V>   data
+   * @param index index
+   * @return JSON
+   */
   public <K, V> JSONObject insert(Map<K, V> map, String index) throws IOException {
     this.setIndex();
     return estemplate.insert(map, index);
   }
 
+  /**
+   * insert.
+   *
+   * @param map    field name,field value
+   * @param entity data
+   * @return JSON
+   */
   public <V> JSONObject update(T entity, Map<String, V> map) throws IOException {
     this.setIndex();
     this.updateRule(entity);

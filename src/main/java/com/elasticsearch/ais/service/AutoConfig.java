@@ -16,7 +16,7 @@ import org.springframework.context.annotation.DependsOn;
 
 
 /**
- * . register spring bean
+ * register spring bean.
  *
  * @author lihang
  * @email 631533483@qq.com

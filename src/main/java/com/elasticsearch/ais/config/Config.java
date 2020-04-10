@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * . Profile content acquisition
+ * Profile content acquisition.
  *
  * @author lihang
  * @email 631533483@qq.com

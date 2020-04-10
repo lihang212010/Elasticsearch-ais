@@ -32,7 +32,9 @@ public class EsClient {
   }
 
   /**
-   * . 获得一个人restClient get restClient
+   * get restClient.
+   *
+   * @return RestClient
    */
   public RestClient getRestClient() {
     String[] url = config.getUrl().split(",");

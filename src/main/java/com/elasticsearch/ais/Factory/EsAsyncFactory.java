@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * . Dynamic proxy with ElasticsearchAsync annotation interface(Spring)
+ * Dynamic proxy with ElasticsearchAsync annotation interface(Spring).
  *
  * @author lihang
  * @email 631533483@qq.com

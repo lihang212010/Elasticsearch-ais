@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 public interface RestPerform {
 
   /**
-   * .Executing scripts and parsing returned values
+   * Executing scripts and parsing returned values.
    *
    * @param method   Request mode(get,put,post,delete)
    * @param endpoint url
@@ -27,7 +27,7 @@ public interface RestPerform {
   String executeString(String method, String endpoint, String script) throws IOException;
 
   /**
-   * .Executing scripts and parsing returned values
+   * Executing scripts and parsing returned values.
    *
    * @param method   Request mode(get,put,post,delete)
    * @param endpoint url
@@ -40,7 +40,7 @@ public interface RestPerform {
       throws IOException;
 
   /**
-   * .Executing scripts and parsing returned values
+   * Executing scripts and parsing returned values.
    *
    * @param method   Request mode(get,put,post,delete)
    * @param endpoint url
@@ -50,7 +50,7 @@ public interface RestPerform {
   JSONObject executeJSON(String method, String endpoint, String script) throws IOException;
 
   /**
-   * .Executing scripts and parsing returned values
+   * Executing scripts and parsing returned values.
    *
    * @param method   Request mode(get,put,post,delete)
    * @param endpoint url
@@ -64,7 +64,7 @@ public interface RestPerform {
 
 
   /**
-   * .Executing scripts and parsing returned values
+   * Executing scripts and parsing returned values.
    *
    * @param method   Request mode(get,put,post,delete)
    * @param endpoint url
@@ -77,7 +77,7 @@ public interface RestPerform {
       throws IOException, InterruptedException;
 
   /**
-   * .Executing scripts and parsing returned values
+   * Executing scripts and parsing returned values.
    *
    * @param method   Request mode(get,put,post,delete)
    * @param endpoint url
@@ -88,7 +88,7 @@ public interface RestPerform {
       throws IOException;
 
   /**
-   * .Executing scripts and parsing returned values
+   * Executing scripts and parsing returned values.
    *
    * @param method   Request mode(get,put,post,delete)
    * @param endpoint url
@@ -99,7 +99,7 @@ public interface RestPerform {
       throws IOException, InterruptedException;
 
   /**
-   * .Executing scripts and parsing returned values
+   * Executing scripts and parsing returned values.
    *
    * @param method   Request mode(get,put,post,delete)
    * @param endpoint url
