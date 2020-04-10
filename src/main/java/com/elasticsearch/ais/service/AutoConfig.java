@@ -15,58 +15,58 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
 
 
-
-/*
- *@author:lihang
- *@email:631533483@qq.com
+/**
+ * . register spring bean
+ *
+ * @author lihang
+ * @email 631533483@qq.com
  */
 @Configuration
 @ConditionalOnWebApplication
 @EnableConfigurationProperties(Config.class)
 public class AutoConfig {
 
-    private  Config config;
+  private Config config;
 
-    public AutoConfig(Config config){
-        this.config=Config.getConfig();
-    }
+  public AutoConfig(Config config) {
+    this.config = Config.getConfig();
+  }
 
-    @Bean(name = "config")
-    @ConditionalOnMissingBean
-    public Config config(){
-        return config;
-    }
+  @Bean(name = "config")
+  @ConditionalOnMissingBean
+  public Config config() {
+    return config;
+  }
 
 
-    @Bean(name = "restPerform")
-    @DependsOn(value = { "config" })
-    @ConditionalOnMissingBean
-    public RestPerform restPerform(){
-        RestPerform restPerform=new RestPerformIpml(new EsClient(Config.getConfig()));
-        return  restPerform;
-    }
+  @Bean(name = "restPerform")
+  @DependsOn(value = {"config"})
+  @ConditionalOnMissingBean
+  public RestPerform restPerform() {
+    RestPerform restPerform = new RestPerformIpml(new EsClient(Config.getConfig()));
+    return restPerform;
+  }
 
-    @Bean(name = "esClient")
-    @DependsOn(value = { "config" })
-    @ConditionalOnMissingBean
-    public EsClient esClient(){
-        return new EsClient(Config.getConfig());
-    }
+  @Bean(name = "esClient")
+  @DependsOn(value = {"config"})
+  @ConditionalOnMissingBean
+  public EsClient esClient() {
+    return new EsClient(Config.getConfig());
+  }
 
-    @Bean
-    @DependsOn(value = { "restPerform" })
-    @ConditionalOnMissingBean
-    public Estemplate estemplate(){
-        return new Estemplate();
-    }
+  @Bean
+  @DependsOn(value = {"restPerform"})
+  @ConditionalOnMissingBean
+  public Estemplate estemplate() {
+    return new Estemplate();
+  }
 
-    @Bean(name = "estemplateCustom")
-    @DependsOn(value = { "restPerform" })
-    @ConditionalOnMissingBean
-    public EstemplateCustom estemplateCustom(){
-        return new EstemplateCustom();
-    }
-
+  @Bean(name = "estemplateCustom")
+  @DependsOn(value = {"restPerform"})
+  @ConditionalOnMissingBean
+  public EstemplateCustom estemplateCustom() {
+    return new EstemplateCustom();
+  }
 
 
 }
