@@ -23,7 +23,7 @@ maven导入：pom.xml
         </dependency>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-demo地址：[https://github.com/lihang212010/Elasticsearch-ais-demo](https://github.com/lihang212010/Elasticsearch-ais-demo)
+demo地址：[https://github.com/lihang212010/aisDemo](https://github.com/lihang212010/aisDemo)
 
 English explanation: [https://github.com/lihang212010/Elasticsearch-ais/blob/master/README_English.md)
 
