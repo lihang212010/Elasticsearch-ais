@@ -9,7 +9,7 @@ maven：pom.xml
         <dependency>
             <groupId>com.github.lihang212010</groupId>
             <artifactId>ais</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
 
         <dependency>
