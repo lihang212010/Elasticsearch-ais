@@ -1,6 +1,6 @@
 ELASTICSEARCH-AIS
 
-demo：[https://github.com/lihang212010/Elasticsearch-ais-demo](https://github.com/lihang212010/Elasticsearch-ais-demo)
+demo：[https://github.com/lihang212010/aisDemo](https://github.com/lihang212010/aisDemo)
 
 
 maven：pom.xml
