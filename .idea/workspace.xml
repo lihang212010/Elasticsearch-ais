@@ -5,11 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a592db57-9a76-4a72-a1e4-fac71ceb9615" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/ais/demo/controller/find/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/ais/demo/controller/find/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_English.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ais.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Estemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Estemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/EstemplateCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/EstemplateCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Factory/EsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Factory/EsProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/annotation/Elasticsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/annotation/Elasticsearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/annotation/ElasticsearchAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/annotation/ElasticsearchAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/EsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/config/EsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/config/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/restClient/RestPerform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/restClient/RestPerformIpml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/service/AutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/EsAsyncRegistryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/service/EsAsyncRegistryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/EsRegistryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/service/EsRegistryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Bulk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Bulk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Script.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Should.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Should.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/template/POJOTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/CollectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +129,41 @@
     <expand />
     <select />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-boot-data-elasticsearch-ais" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-boot-data-elasticsearch-ais" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-boot-data-elasticsearch-ais" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="abis" />
   </component>
@@ -51,6 +182,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -67,21 +199,25 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XyJbITkGo6vgQ1AeoNYPIGAk1B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/文档/alibaba.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -100,26 +236,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="Gradle.spring-boot-data-elasticsearch-ais [jar]">
     <configuration name="Bulk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.elasticsearch.ais.staticString.Bulk" />
       <module name="ais" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.elasticsearch.ais.staticString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.elasticsearch.ais.config.Scanner" />
-      <module name="ais" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.elasticsearch.ais.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +263,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="spring-boot-data-elasticsearch-ais [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-boot-data-elasticsearch-ais [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-boot-data-elasticsearch-ais [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ais.demo.DemoApplication" />
@@ -156,9 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.spring-boot-data-elasticsearch-ais [jar]" />
+        <item itemvalue="Gradle.spring-boot-data-elasticsearch-ais [clean]" />
+        <item itemvalue="Gradle.spring-boot-data-elasticsearch-ais [build]" />
         <item itemvalue="Application.Bulk" />
         <item itemvalue="Application.Script" />
-        <item itemvalue="Application.Scanner" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +354,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -224,7 +401,8 @@
       <workItem from="1585624411806" duration="399000" />
       <workItem from="1585628083629" duration="102000" />
       <workItem from="1585628353043" duration="307000" />
-      <workItem from="1586504107453" duration="24651000" />
+      <workItem from="1586504107453" duration="29683000" />
+      <workItem from="1586599372866" duration="5928000" />
     </task>
     <task id="LOCAL-00001" summary="Elasticsearch-ais">
       <created>1583778636923</created>
@@ -268,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586583244814</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Elasticsearch-ais&#10;javadoc">
+      <created>1586584550662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586584550662</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +473,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Elasticsearch-ais&#10;使用例子" />
     <MESSAGE value="Elasticsearch-ais" />
     <MESSAGE value="Elasticsearch-ais&#10;javadoc" />
@@ -302,10 +488,10 @@
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="303" y="59" width="800" height="675" key="#Notifications/50.27.1316.741@50.27.1316.741" timestamp="1583897296277" />
-    <state x="303" y="59" width="853" height="675" key="#Project_Structure" timestamp="1583773863574">
+    <state x="303" y="59" width="853" height="675" key="#Project_Structure" timestamp="1586598787274">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="303" y="59" width="853" height="675" key="#Project_Structure/50.27.1316.741@50.27.1316.741" timestamp="1583773863574" />
+    <state x="303" y="59" width="853" height="675" key="#Project_Structure/50.27.1316.741@50.27.1316.741" timestamp="1586598787274" />
     <state x="441" y="155" width="524" height="486" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582131809468">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
@@ -327,19 +513,19 @@
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="427" y="123" width="582" height="645" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.27.1316.741@50.27.1316.741" timestamp="1586583526475" />
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1586583244527">
+    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1586584550234">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1586583244527" />
+    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1586584550234" />
     <state x="172" y="86" width="1052" height="620" key="DiffContextDialog" timestamp="1583862042462">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="172" y="86" width="1052" height="620" key="DiffContextDialog/50.27.1316.741@50.27.1316.741" timestamp="1583862042462" />
-    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl" timestamp="1586583525251">
+    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl" timestamp="1586592384404">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="486" y="156" width="424" height="486" key="FileChooserDialogImpl/42.27.1324.741@42.27.1324.741" timestamp="1582033008143" />
-    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl/50.27.1316.741@50.27.1316.741" timestamp="1586583525251" />
+    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl/50.27.1316.741@50.27.1316.741" timestamp="1586592384404" />
     <state x="493" y="305" key="Github.CreateGistDialog" timestamp="1584083594966">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
@@ -348,50 +534,50 @@
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="559" y="282" width="298" height="318" key="Github.ShareDialog/50.27.1316.741@50.27.1316.741" timestamp="1583809850865" />
-    <state width="1262" height="256" key="GridCell.Tab.0.bottom" timestamp="1586583698511">
+    <state width="1262" height="226" key="GridCell.Tab.0.bottom" timestamp="1586608245384">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.bottom/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.bottom/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="1262" height="256" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1586583698511" />
-    <state width="1262" height="256" key="GridCell.Tab.0.center" timestamp="1586583698511">
+    <state width="1262" height="226" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1586608245384" />
+    <state width="1262" height="226" key="GridCell.Tab.0.center" timestamp="1586608245383">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.center/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.center/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="1262" height="256" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1586583698511" />
-    <state width="1262" height="256" key="GridCell.Tab.0.left" timestamp="1586583698511">
+    <state width="1262" height="226" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1586608245383" />
+    <state width="1262" height="226" key="GridCell.Tab.0.left" timestamp="1586608245382">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.left/40.27.1326.741@40.27.1326.741" timestamp="1582080244227" />
     <state width="1274" height="173" key="GridCell.Tab.0.left/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="1262" height="256" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1586583698511" />
-    <state width="1262" height="256" key="GridCell.Tab.0.right" timestamp="1586583698511">
+    <state width="1262" height="226" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1586608245382" />
+    <state width="1262" height="226" key="GridCell.Tab.0.right" timestamp="1586608245383">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1276" height="173" key="GridCell.Tab.0.right/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
     <state width="1274" height="173" key="GridCell.Tab.0.right/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="1262" height="256" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1586583698511" />
-    <state width="1262" height="240" key="GridCell.Tab.1.bottom" timestamp="1584152977097">
+    <state width="1262" height="226" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1586608245383" />
+    <state width="1214" height="172" key="GridCell.Tab.1.bottom" timestamp="1586598951795">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.bottom/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1262" height="240" key="GridCell.Tab.1.bottom/50.27.1316.741@50.27.1316.741" timestamp="1584152977096" />
-    <state width="1262" height="240" key="GridCell.Tab.1.center" timestamp="1584152977096">
+    <state width="1214" height="172" key="GridCell.Tab.1.bottom/50.27.1316.741@50.27.1316.741" timestamp="1586598951795" />
+    <state width="1214" height="172" key="GridCell.Tab.1.center" timestamp="1586598951795">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.center/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1262" height="240" key="GridCell.Tab.1.center/50.27.1316.741@50.27.1316.741" timestamp="1584152977096" />
-    <state width="1262" height="240" key="GridCell.Tab.1.left" timestamp="1584152977096">
+    <state width="1214" height="172" key="GridCell.Tab.1.center/50.27.1316.741@50.27.1316.741" timestamp="1586598951795" />
+    <state width="1214" height="172" key="GridCell.Tab.1.left" timestamp="1586598951794">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.left/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1262" height="240" key="GridCell.Tab.1.left/50.27.1316.741@50.27.1316.741" timestamp="1584152977096" />
-    <state width="1262" height="240" key="GridCell.Tab.1.right" timestamp="1584152977096">
+    <state width="1214" height="172" key="GridCell.Tab.1.left/50.27.1316.741@50.27.1316.741" timestamp="1586598951794" />
+    <state width="1214" height="172" key="GridCell.Tab.1.right" timestamp="1586598951795">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state width="1274" height="230" key="GridCell.Tab.1.right/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1262" height="240" key="GridCell.Tab.1.right/50.27.1316.741@50.27.1316.741" timestamp="1584152977096" />
+    <state width="1214" height="172" key="GridCell.Tab.1.right/50.27.1316.741@50.27.1316.741" timestamp="1586598951795" />
     <state x="241" y="55" width="924" height="686" key="Maven.ArtifactSearchDialog" timestamp="1582364934510">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
@@ -406,20 +592,20 @@
     <state x="173" y="32" key="SettingsEditor/40.27.1326.741@40.27.1326.741" timestamp="1582079764484" />
     <state x="175" y="32" key="SettingsEditor/42.27.1324.741@42.27.1324.741" timestamp="1582052107150" />
     <state x="175" y="32" width="1052" height="732" key="SettingsEditor/50.27.1316.741@50.27.1316.741" timestamp="1586509117920" />
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1586583360927">
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1586584558349">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1586583360927" />
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1586584558349" />
     <state x="347" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585628372726">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="308" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583152644392" />
     <state x="341" y="225" key="com.intellij.ide.util.TipDialog/42.27.1324.741@42.27.1324.741" timestamp="1585624436441" />
     <state x="347" y="225" key="com.intellij.ide.util.TipDialog/50.27.1316.741@50.27.1316.741" timestamp="1585628372726" />
-    <state x="331" y="178" width="747" height="433" key="git4idea.merge.GitPullDialog" timestamp="1583941303049">
+    <state x="331" y="178" width="747" height="433" key="git4idea.merge.GitPullDialog" timestamp="1586598687470">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="331" y="178" width="747" height="433" key="git4idea.merge.GitPullDialog/50.27.1316.741@50.27.1316.741" timestamp="1583941303049" />
+    <state x="331" y="178" width="747" height="433" key="git4idea.merge.GitPullDialog/50.27.1316.741@50.27.1316.741" timestamp="1586598687470" />
     <state x="50" y="100" width="1306" height="596" key="new project wizard" timestamp="1585628490303">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
