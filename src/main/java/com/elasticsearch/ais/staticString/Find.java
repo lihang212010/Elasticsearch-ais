@@ -587,6 +587,7 @@ public class Find {
    *                        Defaults to 25
    * @param value           field value
    * @param keys            field name
+   * @return String script
    */
   public static String more_like_this(int min_term_freq, int max_query_terms, Object value,
       Object... keys) {

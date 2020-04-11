@@ -3,29 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a592db57-9a76-4a72-a1e4-fac71ceb9615" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsAsyncProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Factory/EsProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/annotation/Elasticsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/annotation/Elasticsearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/annotation/ElasticsearchAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/annotation/ElasticsearchAsync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/EsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/EsClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/config/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/restClient/RestPerform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/restClient/RestPerform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/restClient/RestPerformIpml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/restClient/RestPerformIpml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/EsAsyncRegistryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/EsAsyncRegistryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/EsRegistryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/service/EsRegistryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Bulk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Bulk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Estemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/Estemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/EstemplateCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/EstemplateCustom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Find.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Script.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Should.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/staticString/Should.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/template/POJOTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/template/POJOTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/CollectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/CollectUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elasticsearch/ais/utils/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/ais/demo/controller/find/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/ais/demo/controller/find/Find.java" afterDir="false" />
     </list>
@@ -231,7 +211,7 @@
       <workItem from="1585624411806" duration="399000" />
       <workItem from="1585628083629" duration="102000" />
       <workItem from="1585628353043" duration="307000" />
-      <workItem from="1586504107453" duration="16919000" />
+      <workItem from="1586504107453" duration="23220000" />
     </task>
     <task id="LOCAL-00001" summary="Elasticsearch-ais">
       <created>1583778636923</created>
@@ -261,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586539403290</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Elasticsearch-ais&#10;javadoc">
+      <created>1586542316131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586542316131</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,10 +307,10 @@
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="427" y="216" width="552" height="360" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.27.1316.741@50.27.1316.741" timestamp="1586515139404" />
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1586539402833">
+    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1586542315878">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1586539402833" />
+    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1586542315878" />
     <state x="172" y="86" width="1052" height="620" key="DiffContextDialog" timestamp="1583862042462">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
@@ -399,10 +386,10 @@
     <state x="173" y="32" key="SettingsEditor/40.27.1326.741@40.27.1326.741" timestamp="1582079764484" />
     <state x="175" y="32" key="SettingsEditor/42.27.1324.741@42.27.1324.741" timestamp="1582052107150" />
     <state x="175" y="32" width="1052" height="732" key="SettingsEditor/50.27.1316.741@50.27.1316.741" timestamp="1586509117920" />
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1586539413566">
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1586542326483">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1586539413566" />
+    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1586542326483" />
     <state x="347" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585628372726">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
@@ -421,11 +408,11 @@
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="453" y="27" width="500" height="738" key="refactoring.ChangeSignatureDialog/50.27.1316.741@50.27.1316.741" timestamp="1586510999450" />
-    <state x="374" y="175" key="run.anything.popup" timestamp="1582543049811">
+    <state x="374" y="175" key="run.anything.popup" timestamp="1586582103410">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
     <state x="368" y="175" key="run.anything.popup/42.27.1324.741@42.27.1324.741" timestamp="1582081765743" />
-    <state x="374" y="175" key="run.anything.popup/50.27.1316.741@50.27.1316.741" timestamp="1582543049811" />
+    <state x="374" y="175" key="run.anything.popup/50.27.1316.741@50.27.1316.741" timestamp="1586582103410" />
     <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582825822273">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
