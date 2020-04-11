@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.github.lihang212010</groupId>
     <artifactId>ais</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>spring-boot-elasticsearch-ais</name>
     <description>一个Elasticsearch的简单使用框架，使用类似mybatis方式操作elasricsearch</description>
     <url>https://github.com/lihang212010/Elasticsearch-ais</url>
