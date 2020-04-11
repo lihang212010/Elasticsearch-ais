@@ -1,7 +1,7 @@
 ELASTICSEARCH-AIS
 
 
-User manual：[http://49.232.76.209:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html](http://49.232.76.209:8080/ais/Elasticsearch-ais-Enaglish/Elasticsearch-ais.html)
+
 
 maven：pom.xml
 
