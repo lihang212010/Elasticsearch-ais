@@ -1,0 +1,9 @@
+com.elasticsearch.ais
+com.elasticsearch.ais.Factory
+com.elasticsearch.ais.annotation
+com.elasticsearch.ais.config
+com.elasticsearch.ais.restClient
+com.elasticsearch.ais.service
+com.elasticsearch.ais.staticString
+com.elasticsearch.ais.template
+com.elasticsearch.ais.utils
