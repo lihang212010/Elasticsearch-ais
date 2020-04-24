@@ -1,15 +1,14 @@
 package org.springframework.boot.elasticsearch.ais.service;
 
-
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.elasticsearch.ais.Estemplate;
 import org.springframework.boot.elasticsearch.ais.EstemplateCustom;
 import org.springframework.boot.elasticsearch.ais.config.Config;
 import org.springframework.boot.elasticsearch.ais.config.EsClient;
 import org.springframework.boot.elasticsearch.ais.restClient.RestPerform;
 import org.springframework.boot.elasticsearch.ais.restClient.RestPerformIpml;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;

@@ -1,7 +1,6 @@
 package org.springframework.boot.elasticsearch.ais;
 
 import com.alibaba.fastjson.JSONObject;
-import org.springframework.boot.elasticsearch.ais.restClient.RestPerform;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.List;
@@ -9,6 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.elasticsearch.client.ResponseListener;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.elasticsearch.ais.restClient.RestPerform;
 
 
 /*

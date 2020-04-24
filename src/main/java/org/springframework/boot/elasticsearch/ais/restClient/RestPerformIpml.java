@@ -3,9 +3,6 @@ package org.springframework.boot.elasticsearch.ais.restClient;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import org.springframework.boot.elasticsearch.ais.config.Config;
-import org.springframework.boot.elasticsearch.ais.config.EsClient;
-import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +14,9 @@ import org.elasticsearch.client.ResponseListener;
 import org.elasticsearch.client.RestClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.elasticsearch.ais.config.Config;
+import org.springframework.boot.elasticsearch.ais.config.EsClient;
+import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 

@@ -2,10 +2,9 @@ package org.springframework.boot.elasticsearch.ais.staticString;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
 import java.util.List;
 import java.util.Map;
-
+import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
 /**
  * bulk operation.
  *
@@ -13,6 +12,7 @@ import java.util.Map;
  * @email 631533483@qq.com
  * @result Script of character type
  */
+
 public class Bulk {
 
   /**

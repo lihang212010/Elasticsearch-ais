@@ -1,6 +1,5 @@
 package org.springframework.boot.elasticsearch.ais.config;
 
-import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
 import org.apache.http.Header;
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
@@ -13,6 +12,7 @@ import org.apache.http.impl.nio.reactor.IOReactorConfig;
 import org.apache.http.message.BasicHeader;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestClientBuilder;
+import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
 import org.springframework.stereotype.Component;
 
 /**

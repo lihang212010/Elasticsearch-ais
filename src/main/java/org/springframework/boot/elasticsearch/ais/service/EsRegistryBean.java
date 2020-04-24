@@ -1,9 +1,5 @@
 package org.springframework.boot.elasticsearch.ais.service;
 
-import org.springframework.boot.elasticsearch.ais.Factory.EsFactory;
-import org.springframework.boot.elasticsearch.ais.annotation.Elasticsearch;
-import org.springframework.boot.elasticsearch.ais.config.Scanner;
-import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
 import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Properties;
@@ -17,6 +13,10 @@ import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor;
 import org.springframework.beans.factory.support.GenericBeanDefinition;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
+import org.springframework.boot.elasticsearch.ais.Factory.EsFactory;
+import org.springframework.boot.elasticsearch.ais.annotation.Elasticsearch;
+import org.springframework.boot.elasticsearch.ais.config.Scanner;
+import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.DependsOn;
@@ -24,6 +24,7 @@ import org.springframework.core.io.ClassPathResource;
 
 
 /**
+ * .
  * <p>register spring bean,Register as class name, first level letter is lowercase</p>
  *
  * @author lihang

@@ -1,6 +1,10 @@
 package org.springframework.boot.elasticsearch.ais;
 
 import com.alibaba.fastjson.JSONObject;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import org.springframework.boot.elasticsearch.ais.restClient.RestPerform;
 import org.springframework.boot.elasticsearch.ais.staticString.Bulk;
 import org.springframework.boot.elasticsearch.ais.staticString.Find;
@@ -8,10 +12,6 @@ import org.springframework.boot.elasticsearch.ais.staticString.Script;
 import org.springframework.boot.elasticsearch.ais.staticString.Settings;
 import org.springframework.boot.elasticsearch.ais.staticString.Should;
 import org.springframework.boot.elasticsearch.ais.utils.StringUtils;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-data-elasticsearch-ais" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ais" target="1.8" />
       <module name="demo" target="1.8" />
@@ -10,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ais" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="spring-boot-data-elasticsearch-ais" options="-parameters" />
     </option>
   </component>
 </project>
