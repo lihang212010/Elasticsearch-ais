@@ -3,6 +3,8 @@ ELASTICSEARCH-AIS
 
 demo:[https://github.com/lihang212010/Elasticsearch-ais-demo](https://github.com/lihang212010/Elasticsearch-ais-demo)
 
+javadoc:[http://49.232.76.209:8080/download/apidocs/](http://49.232.76.209:8080/download/apidocs/)
+
 maven：pom.xml
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
