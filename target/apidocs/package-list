@@ -1,0 +1,9 @@
+org.springframework.boot.elasticsearch.ais
+org.springframework.boot.elasticsearch.ais.Factory
+org.springframework.boot.elasticsearch.ais.annotation
+org.springframework.boot.elasticsearch.ais.config
+org.springframework.boot.elasticsearch.ais.restClient
+org.springframework.boot.elasticsearch.ais.service
+org.springframework.boot.elasticsearch.ais.staticString
+org.springframework.boot.elasticsearch.ais.template
+org.springframework.boot.elasticsearch.ais.utils
