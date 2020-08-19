@@ -4,7 +4,367 @@
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a592db57-9a76-4a72-a1e4-fac71ceb9615" name="Default Changelist" comment="Elasticsearch-ais&#10;javadoc" />
+    <list default="true" id="a592db57-9a76-4a72-a1e4-fac71ceb9615" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Estemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Estemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/EstemplateCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/EstemplateCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Factory/EsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Factory/EsFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Factory/EsProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/Factory/EsProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/annotation/Elasticsearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/annotation/Elasticsearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/annotation/ElasticsearchAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/annotation/ElasticsearchAsync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/EsClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/EsClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/EsClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/EsClient$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/EsClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/EsClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/Scanner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/Scanner$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/config/Scanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/service/AutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/service/AutoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/service/EsAsyncRegistryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/service/EsAsyncRegistryBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/service/EsRegistryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/service/EsRegistryBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Bulk.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Bulk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Script.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Script.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Should.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/staticString/Should.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/utils/JsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/springframework/boot/elasticsearch/ais/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/spring-boot-data-elasticsearch-ais-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/spring-boot-data-elasticsearch-ais-1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/poms/pom-default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/resource/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Estemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Estemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/EstemplateCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/EstemplateCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/annotation/ElasticsearchAsync.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/service/EsAsyncRegistryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-1.0.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-1.0.1-javadoc.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-1.0.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-1.0.1-sources.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-1.0.1.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-1.0.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ais-1.0.1.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Estemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/EstemplateCustom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/EsAsyncFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/EsAsyncProxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/EsFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/EsProxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/class-use/EsAsyncFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/class-use/EsAsyncProxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/class-use/EsFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/class-use/EsProxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/Factory/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/annotation/Elasticsearch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/annotation/ElasticsearchAsync.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/annotation/class-use/Elasticsearch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/annotation/class-use/ElasticsearchAsync.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/annotation/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/annotation/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/annotation/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/annotation/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/class-use/Estemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/class-use/EstemplateCustom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/Config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/EsClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/Scanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/class-use/Config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/class-use/EsClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/class-use/Scanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/config/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/restClient/RestPerform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/restClient/RestPerformIpml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/restClient/class-use/RestPerform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/restClient/class-use/RestPerformIpml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/restClient/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/restClient/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/restClient/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/restClient/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/AutoConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/EsAsyncRegistryBean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/EsRegistryBean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/class-use/AutoConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/class-use/EsAsyncRegistryBean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/class-use/EsRegistryBean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/service/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/Bulk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/Find.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/Script.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/Settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/Should.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/class-use/Bulk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/class-use/Find.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/class-use/Script.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/class-use/Settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/class-use/Should.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/staticString/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/template/POJOTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/template/class-use/POJOTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/template/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/template/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/template/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/template/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/CollectUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/JsonUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/StringUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/class-use/CollectUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/class-use/JsonUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/class-use/StringUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/elasticsearch/ais/utils/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Estemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Estemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/EstemplateCustom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/EstemplateCustom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncProxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/EsFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/EsFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/EsProxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/EsProxy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/class-use/EsAsyncFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/class-use/EsAsyncProxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/class-use/EsFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/class-use/EsFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/class-use/EsProxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/class-use/EsProxy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/Factory/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/Elasticsearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/Elasticsearch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/ElasticsearchAsync.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/class-use/Elasticsearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/class-use/Elasticsearch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/class-use/ElasticsearchAsync.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/annotation/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/class-use/Estemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/class-use/Estemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/class-use/EstemplateCustom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/class-use/EstemplateCustom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/Config.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/Config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/EsClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/EsClient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/Scanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/Scanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/class-use/Config.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/class-use/Config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/class-use/EsClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/class-use/EsClient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/class-use/Scanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/class-use/Scanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/config/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/class-use/RestPerform.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/class-use/RestPerform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/class-use/RestPerformIpml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/class-use/RestPerformIpml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/restClient/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/AutoConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/AutoConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/EsAsyncRegistryBean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/EsRegistryBean.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/EsRegistryBean.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/class-use/AutoConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/class-use/AutoConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/class-use/EsAsyncRegistryBean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/class-use/EsRegistryBean.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/class-use/EsRegistryBean.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/service/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Bulk.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Bulk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Find.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Find.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Script.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Script.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Should.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/Should.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Bulk.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Bulk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Find.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Find.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Script.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Script.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Should.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/class-use/Should.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/staticString/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/class-use/POJOTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/class-use/POJOTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/template/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/JsonUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/JsonUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/StringUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/StringUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/class-use/CollectUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/class-use/CollectUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/class-use/JsonUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/class-use/JsonUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/class-use/StringUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/class-use/StringUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/org/springframework/boot/elasticsearch/ais/utils/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Estemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/EstemplateCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Factory/EsAsyncFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Factory/EsAsyncProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Factory/EsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/Factory/EsProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/annotation/Elasticsearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/annotation/ElasticsearchAsync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/EsClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/EsClient$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/EsClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/Scanner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/config/Scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/restClient/RestPerform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/restClient/RestPerformIpml$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/restClient/RestPerformIpml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/service/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/service/EsAsyncRegistryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/service/EsRegistryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Bulk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Find.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Script.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/staticString/Should.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/template/POJOTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/utils/CollectUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/utils/JsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elasticsearch/ais/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/Estemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/Estemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/EstemplateCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/EstemplateCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/Factory/EsAsyncProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/Factory/EsProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/Factory/EsProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/annotation/ElasticsearchAsync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/config/EsClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/config/EsClient$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/config/EsClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/config/EsClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/config/Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/config/Scanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/service/EsAsyncRegistryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/service/EsRegistryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/service/EsRegistryBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/staticString/Bulk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/staticString/Bulk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/staticString/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/staticString/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/staticString/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/staticString/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/utils/CollectUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springframework/boot/elasticsearch/ais/utils/JsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,10 +482,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -241,8 +601,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.spring-boot-data-elasticsearch-ais [jar]" />
-        <item itemvalue="Gradle.spring-boot-data-elasticsearch-ais [clean]" />
         <item itemvalue="Gradle.spring-boot-data-elasticsearch-ais [build]" />
+        <item itemvalue="Gradle.spring-boot-data-elasticsearch-ais [clean]" />
         <item itemvalue="Application.Bulk" />
         <item itemvalue="Application.Script" />
       </list>
@@ -311,6 +671,11 @@
       <workItem from="1586622057698" duration="278000" />
       <workItem from="1587735234419" duration="457000" />
       <workItem from="1587736090854" duration="3710000" />
+      <workItem from="1587741639599" duration="671000" />
+      <workItem from="1592500268802" duration="270000" />
+      <workItem from="1593344948173" duration="9856000" />
+      <workItem from="1593697904754" duration="334000" />
+      <workItem from="1597757238179" duration="4703000" />
     </task>
     <task id="LOCAL-00001" summary="Elasticsearch-ais">
       <created>1583778636923</created>
@@ -368,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586622168992</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Elasticsearch-ais&#10;javadoc">
+      <created>1587740519675</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587740519675</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,156 +767,57 @@
     <option name="LAST_COMMIT_MESSAGE" value="Elasticsearch-ais&#10;javadoc" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="59" width="800" height="675" key="#HTTP_Proxy" timestamp="1584172730634">
+    <state x="304" y="59" width="800" height="674" key="#Inspections" timestamp="1597819760149">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state x="304" y="59" width="800" height="674" key="#Inspections/53.27.1313.741@53.27.1313.741" timestamp="1597819760149" />
+    <state x="516" y="105" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1593357033564">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="303" y="59" width="800" height="675" key="#HTTP_Proxy/50.27.1316.741@50.27.1316.741" timestamp="1584172730634" />
-    <state x="303" y="59" width="800" height="675" key="#Notifications" timestamp="1583897296277">
+    <state x="516" y="105" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/50.27.1316.741@50.27.1316.741" timestamp="1593357033564" />
+    <state x="442" y="144" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597820278243">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state x="442" y="144" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/53.27.1313.741@53.27.1313.741" timestamp="1597820278243" />
+    <state x="172" y="86" width="1052" height="620" key="DiffContextDialog" timestamp="1593356292019">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="303" y="59" width="800" height="675" key="#Notifications/50.27.1316.741@50.27.1316.741" timestamp="1583897296277" />
-    <state x="303" y="59" width="853" height="675" key="#Project_Structure" timestamp="1586598787274">
+    <state x="172" y="86" width="1052" height="620" key="DiffContextDialog/50.27.1316.741@50.27.1316.741" timestamp="1593356292019" />
+    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl" timestamp="1593357758462">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="303" y="59" width="853" height="675" key="#Project_Structure/50.27.1316.741@50.27.1316.741" timestamp="1586598787274" />
-    <state x="441" y="155" width="524" height="486" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582131809468">
+    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl/50.27.1316.741@50.27.1316.741" timestamp="1593357758462" />
+    <state width="1259" height="159" key="GridCell.Tab.0.bottom" timestamp="1597820280394">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state width="1262" height="159" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1593534570681" />
+    <state width="1259" height="159" key="GridCell.Tab.0.bottom/53.27.1313.741@53.27.1313.741" timestamp="1597820280394" />
+    <state width="1259" height="159" key="GridCell.Tab.0.center" timestamp="1597820280393">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state width="1262" height="159" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1593534570681" />
+    <state width="1259" height="159" key="GridCell.Tab.0.center/53.27.1313.741@53.27.1313.741" timestamp="1597820280393" />
+    <state width="1259" height="159" key="GridCell.Tab.0.left" timestamp="1597820280393">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state width="1262" height="159" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1593534570680" />
+    <state width="1259" height="159" key="GridCell.Tab.0.left/53.27.1313.741@53.27.1313.741" timestamp="1597820280393" />
+    <state width="1259" height="159" key="GridCell.Tab.0.right" timestamp="1597820280394">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state width="1262" height="159" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1593534570681" />
+    <state width="1259" height="159" key="GridCell.Tab.0.right/53.27.1313.741@53.27.1313.741" timestamp="1597820280394" />
+    <state x="214" y="36" width="1052" height="732" key="SettingsEditor" timestamp="1593410574599">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="441" y="155" width="524" height="486" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/50.27.1316.741@50.27.1316.741" timestamp="1582131809468" />
-    <state x="427" y="245" width="551" height="308" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1582116470603">
+    <state x="214" y="36" width="1052" height="732" key="SettingsEditor/50.27.1316.741@50.27.1316.741" timestamp="1593410574599" />
+    <state x="347" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1593697904807">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="427" y="245" width="551" height="308" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/50.27.1316.741@50.27.1316.741" timestamp="1582116470603" />
-    <state x="516" y="108" width="374" height="628" key="#com.intellij.ide.util.MemberChooser" timestamp="1583677116274">
+    <state x="347" y="225" key="com.intellij.ide.util.TipDialog/50.27.1316.741@50.27.1316.741" timestamp="1593697904807" />
+    <state x="50" y="100" width="1306" height="596" key="new project wizard" timestamp="1593698240700">
       <screen x="50" y="27" width="1316" height="741" />
     </state>
-    <state x="511" y="108" width="374" height="628" key="#com.intellij.ide.util.MemberChooser/42.27.1324.741@42.27.1324.741" timestamp="1582051782643" />
-    <state x="516" y="108" width="374" height="581" key="#com.intellij.ide.util.MemberChooser/50.27.1316.741@50.27.1316.741" timestamp="1583677116274" />
-    <state x="355" y="29" width="696" height="734" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1584177551979">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="355" y="29" width="696" height="734" key="#com.intellij.unscramble.UnscrambleDialog/50.27.1316.741@50.27.1316.741" timestamp="1584177551979" />
-    <state x="427" y="123" width="582" height="645" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586583526475">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="427" y="123" width="582" height="645" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.27.1316.741@50.27.1316.741" timestamp="1586583526475" />
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2" timestamp="1587737855364">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="269" y="27" width="867" height="739" key="CommitChangelistDialog2/50.27.1316.741@50.27.1316.741" timestamp="1587737855364" />
-    <state x="172" y="86" width="1052" height="620" key="DiffContextDialog" timestamp="1587737851308">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="172" y="86" width="1052" height="620" key="DiffContextDialog/50.27.1316.741@50.27.1316.741" timestamp="1587737851308" />
-    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl" timestamp="1586622333719">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="486" y="156" width="424" height="486" key="FileChooserDialogImpl/42.27.1324.741@42.27.1324.741" timestamp="1582033008143" />
-    <state x="491" y="156" width="453" height="484" key="FileChooserDialogImpl/50.27.1316.741@50.27.1316.741" timestamp="1586622333719" />
-    <state x="493" y="305" key="Github.CreateGistDialog" timestamp="1584083594966">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="493" y="305" key="Github.CreateGistDialog/50.27.1316.741@50.27.1316.741" timestamp="1584083594966" />
-    <state x="559" y="282" width="298" height="318" key="Github.ShareDialog" timestamp="1583809850865">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="559" y="282" width="298" height="318" key="Github.ShareDialog/50.27.1316.741@50.27.1316.741" timestamp="1583809850865" />
-    <state width="1262" height="159" key="GridCell.Tab.0.bottom" timestamp="1587739920380">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state width="1276" height="173" key="GridCell.Tab.0.bottom/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
-    <state width="1274" height="173" key="GridCell.Tab.0.bottom/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="1262" height="159" key="GridCell.Tab.0.bottom/50.27.1316.741@50.27.1316.741" timestamp="1587739920380" />
-    <state width="1262" height="159" key="GridCell.Tab.0.center" timestamp="1587739920379">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state width="1276" height="173" key="GridCell.Tab.0.center/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
-    <state width="1274" height="173" key="GridCell.Tab.0.center/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="1262" height="159" key="GridCell.Tab.0.center/50.27.1316.741@50.27.1316.741" timestamp="1587739920379" />
-    <state width="1262" height="159" key="GridCell.Tab.0.left" timestamp="1587739920379">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state width="1276" height="173" key="GridCell.Tab.0.left/40.27.1326.741@40.27.1326.741" timestamp="1582080244227" />
-    <state width="1274" height="173" key="GridCell.Tab.0.left/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="1262" height="159" key="GridCell.Tab.0.left/50.27.1316.741@50.27.1316.741" timestamp="1587739920379" />
-    <state width="1262" height="159" key="GridCell.Tab.0.right" timestamp="1587739920380">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state width="1276" height="173" key="GridCell.Tab.0.right/40.27.1326.741@40.27.1326.741" timestamp="1582080244228" />
-    <state width="1274" height="173" key="GridCell.Tab.0.right/42.27.1324.741@42.27.1324.741" timestamp="1582446586735" />
-    <state width="1262" height="159" key="GridCell.Tab.0.right/50.27.1316.741@50.27.1316.741" timestamp="1587739920380" />
-    <state width="1214" height="172" key="GridCell.Tab.1.bottom" timestamp="1586598951795">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state width="1274" height="230" key="GridCell.Tab.1.bottom/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1214" height="172" key="GridCell.Tab.1.bottom/50.27.1316.741@50.27.1316.741" timestamp="1586598951795" />
-    <state width="1214" height="172" key="GridCell.Tab.1.center" timestamp="1586598951795">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state width="1274" height="230" key="GridCell.Tab.1.center/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1214" height="172" key="GridCell.Tab.1.center/50.27.1316.741@50.27.1316.741" timestamp="1586598951795" />
-    <state width="1214" height="172" key="GridCell.Tab.1.left" timestamp="1586598951794">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state width="1274" height="230" key="GridCell.Tab.1.left/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1214" height="172" key="GridCell.Tab.1.left/50.27.1316.741@50.27.1316.741" timestamp="1586598951794" />
-    <state width="1214" height="172" key="GridCell.Tab.1.right" timestamp="1586598951795">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state width="1274" height="230" key="GridCell.Tab.1.right/42.27.1324.741@42.27.1324.741" timestamp="1582443340280" />
-    <state width="1214" height="172" key="GridCell.Tab.1.right/50.27.1316.741@50.27.1316.741" timestamp="1586598951795" />
-    <state x="241" y="55" width="924" height="686" key="Maven.ArtifactSearchDialog" timestamp="1582364934510">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="241" y="55" width="924" height="686" key="Maven.ArtifactSearchDialog/50.27.1316.741@50.27.1316.741" timestamp="1582364934510" />
-    <state x="291" y="89" width="824" height="615" key="NewModule_or_Project.wizard" timestamp="1583863916143">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="291" y="89" width="824" height="615" key="NewModule_or_Project.wizard/50.27.1316.741@50.27.1316.741" timestamp="1583863916143" />
-    <state x="175" y="32" width="1052" height="732" key="SettingsEditor" timestamp="1587739823600">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="173" y="32" key="SettingsEditor/40.27.1326.741@40.27.1326.741" timestamp="1582079764484" />
-    <state x="175" y="32" key="SettingsEditor/42.27.1324.741@42.27.1324.741" timestamp="1582052107150" />
-    <state x="175" y="32" width="1052" height="732" key="SettingsEditor/50.27.1316.741@50.27.1316.741" timestamp="1587739823600" />
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1586622309942">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="303" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/50.27.1316.741@50.27.1316.741" timestamp="1586622309942" />
-    <state x="347" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585628372726">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="308" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583152644392" />
-    <state x="341" y="225" key="com.intellij.ide.util.TipDialog/42.27.1324.741@42.27.1324.741" timestamp="1585624436441" />
-    <state x="347" y="225" key="com.intellij.ide.util.TipDialog/50.27.1316.741@50.27.1316.741" timestamp="1585628372726" />
-    <state x="361" y="27" width="683" height="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587739067220">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="361" y="27" width="683" height="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/50.27.1316.741@50.27.1316.741" timestamp="1587739067220" />
-    <state x="331" y="178" width="747" height="433" key="git4idea.merge.GitPullDialog" timestamp="1586598687470">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="331" y="178" width="747" height="433" key="git4idea.merge.GitPullDialog/50.27.1316.741@50.27.1316.741" timestamp="1586598687470" />
-    <state x="50" y="100" width="1306" height="596" key="new project wizard" timestamp="1585628490303">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="50" y="100" width="1306" height="596" key="new project wizard/50.27.1316.741@50.27.1316.741" timestamp="1585628490303" />
-    <state x="453" y="27" width="500" height="738" key="refactoring.ChangeSignatureDialog" timestamp="1586510999450">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="453" y="27" width="500" height="738" key="refactoring.ChangeSignatureDialog/50.27.1316.741@50.27.1316.741" timestamp="1586510999450" />
-    <state x="374" y="175" key="run.anything.popup" timestamp="1586582103410">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="368" y="175" key="run.anything.popup/42.27.1324.741@42.27.1324.741" timestamp="1582081765743" />
-    <state x="374" y="175" key="run.anything.popup/50.27.1316.741@50.27.1316.741" timestamp="1586582103410" />
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582825822273">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/50.27.1316.741@50.27.1316.741" timestamp="1582825822273" />
-    <state x="541" y="191" width="324" height="410" key="svn.repositoryBrowser" timestamp="1583778280291">
-      <screen x="50" y="27" width="1316" height="741" />
-    </state>
-    <state x="541" y="191" width="324" height="410" key="svn.repositoryBrowser/50.27.1316.741@50.27.1316.741" timestamp="1583778280291" />
+    <state x="50" y="100" width="1306" height="596" key="new project wizard/50.27.1316.741@50.27.1316.741" timestamp="1593698240700" />
   </component>
 </project>

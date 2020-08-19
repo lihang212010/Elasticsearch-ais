@@ -63,18 +63,6 @@ public interface RestPerform {
       throws IOException;
 
 
-  /**
-   * Executing scripts and parsing returned values.
-   *
-   * @param method   Request mode(get,put,post,delete)
-   * @param endpoint url
-   * @param script   JSON script
-   * @param tClass   Class corresponding to entity class
-   * @param <T>      Objects in List
-   * @return List，Need to resolve by yourself
-   */
-  <T> List<T> executeAsync(String method, String endpoint, String script, int num, Class<T> tClass)
-      throws IOException, InterruptedException;
 
   /**
    * Executing scripts and parsing returned values.
@@ -87,29 +75,6 @@ public interface RestPerform {
       ResponseListener responseListener)
       throws IOException;
 
-  /**
-   * Executing scripts and parsing returned values.
-   *
-   * @param method   Request mode(get,put,post,delete)
-   * @param endpoint url
-   * @param script   JSON script
-   * @return JSON，Need to resolve by yourself
-   */
-  JSONObject executeJSONAsync(String method, String endpoint, String script, int num)
-      throws IOException, InterruptedException;
-
-  /**
-   * Executing scripts and parsing returned values.
-   *
-   * @param method   Request mode(get,put,post,delete)
-   * @param endpoint url
-   * @param script   JSON script
-   * @param tClass   Class corresponding to entity class
-   * @param <T>      Objects in List
-   * @return List，Need to resolve by yourself
-   */
-  <T> T executeOneAsync(String method, String endpoint, String script, int num, Class<T> tClass)
-      throws IOException, InterruptedException;
 
 
 }

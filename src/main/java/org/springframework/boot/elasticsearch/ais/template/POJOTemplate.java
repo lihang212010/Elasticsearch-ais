@@ -90,7 +90,7 @@ public abstract class POJOTemplate<T> {
    * @param id ids
    * @return JSON
    */
-  public JSONObject delete(String... id) throws IOException {
+  public JSONObject delete(Object... id) throws IOException {
     this.setIndex();
     return estemplate.delete(index, id);
   }

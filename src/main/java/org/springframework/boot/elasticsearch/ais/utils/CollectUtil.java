@@ -23,12 +23,28 @@ public class CollectUtil {
   }
 
   /**
+   * is empty? .
+   */
+  public static boolean isEmpty(String... object) {
+    if (object.length > 0) {
+      return false;
+    }
+    return true;
+  }
+
+  /**
    * is not empty? .
    */
   public static boolean isNotEmpty(Object... object) {
     return !isEmpty(object);
   }
 
+  /**
+   * is not empty? .
+   */
+  public static boolean isNotEmpty(String... object) {
+    return !isEmpty(object);
+  }
 
   /**
    * iSeparate data by commas.
@@ -45,9 +61,23 @@ public class CollectUtil {
   }
 
   /**
+   * iSeparate data by commas.
+   */
+  public static String commaSplit(String... objects) {
+    if (objects.length > 0) {
+      String re = "";
+      for (Object o : objects) {
+        re = re + JSON.toJSONString(o) + ",";
+      }
+      return re.substring(0, re.length() - 1);
+    }
+    return null;
+  }
+
+  /**
    * Return sort statement.
    */
-  public static String brackersSplit(Object... objects) {
+  public static String brackersSplit(String... objects) {
     if (objects.length == 1) {
       return null;
     }

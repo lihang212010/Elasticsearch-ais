@@ -131,45 +131,6 @@ public class RestPerformIpml implements RestPerform {
   }
 
 
-  @Override
-  public <T> List<T> executeAsync(String method, String endpoint, String script, int num,
-      Class<T> tClass) throws IOException, InterruptedException {
-    String json = executeAsyncString(method, endpoint, script, num);
-    if (StringUtils.isNotBlank(json)) {
-      JSONArray object = JSON.parseObject(json).getJSONObject("hits")
-          .getJSONArray("hits");
-      List<T> t = new ArrayList<T>();
-      for (int i = 0; i < object.size(); i++) {
-        t.add(object.getJSONObject(i).getJSONObject("_source").toJavaObject(tClass));
-      }
-      // T t= JSON.
-      return t;
-    }
-    return null;
-  }
 
-  @Override
-  public JSONObject executeJSONAsync(String method, String endpoint, String script, int num)
-      throws IOException, InterruptedException {
-
-    String json = executeAsyncString(method, endpoint, script, num);
-    if (StringUtils.isNotBlank(json)) {
-      JSONObject jsonArray = JSONObject.parseObject(json);
-      return jsonArray;
-    }
-    return null;
-  }
-
-  @Override
-  public <T> T executeOneAsync(String method, String endpoint, String script, int num,
-      Class<T> tClass) throws IOException, InterruptedException {
-    String json = executeAsyncString(method, endpoint, script, num);
-    if (StringUtils.isNotBlank(json)) {
-      T t = JSON.parseObject(json).getJSONObject("hits")
-          .getJSONArray("hits").getJSONObject(0).getJSONObject("_source").toJavaObject(tClass);
-      return t;
-    }
-    return null;
-  }
 
 }

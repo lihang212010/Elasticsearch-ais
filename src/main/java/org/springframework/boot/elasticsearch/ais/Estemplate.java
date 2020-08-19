@@ -810,7 +810,7 @@ public class Estemplate {
    * @param keys  field name
    * @param type  must,must_not,filter_must,filter_nust_not
    */
-  public void multi_match(String type, String value, Object... keys) {
+  public void multi_match(String type, String value, String... keys) {
     String query = Find.multi_match(value, keys);
     add(query, type);
   }
@@ -1696,17 +1696,6 @@ public class Estemplate {
     return restPerform.execute(requestMethod, index, script, tClass);
   }
 
-  public <T> List<T> executeAsync(String index, Class<T> tClass)
-      throws IOException, InterruptedException {
-    String script = scriptJoin();
-    return restPerform.executeAsync(request, index + "/_search", script, 1, tClass);
-  }
-
-  public <T> List<T> executeAsync(String requestMethod, String url, Class<T> tClass)
-      throws IOException, InterruptedException {
-    String script = scriptJoin();
-    return restPerform.executeAsync(requestMethod, url, script, 1, tClass);
-  }
 
   /**
    * Executing scripts and parsing returned values.
@@ -1731,16 +1720,6 @@ public class Estemplate {
     return restPerform.executeJSON(requestMethod, index, script);
   }
 
-  public JSONObject executeJSONAsync(String index) throws IOException, InterruptedException {
-    String script = scriptJoin();
-    return restPerform.executeJSONAsync(request, index + "/_search", script, 1);
-  }
-
-  public JSONObject executeJSONAsync(String requestMethod, String url)
-      throws IOException, InterruptedException {
-    String script = scriptJoin();
-    return restPerform.executeJSONAsync(requestMethod, url, script, 1);
-  }
 
   /**
    * Executing scripts and parsing returned values.
@@ -1769,18 +1748,7 @@ public class Estemplate {
     return restPerform.executeOne(requestMethod, index, script, tClass);
   }
 
-  public <T> T executeOneAsync(String index, Class<T> tClass)
-      throws IOException, InterruptedException {
-    String script = scriptJoin();
-    return restPerform.executeOneAsync(request, index + "_search", script, 1, tClass);
-  }
 
-
-  public <T> T executeOneAsync(String requestMethod, String url, Class<T> tClass)
-      throws IOException, InterruptedException {
-    String script = scriptJoin();
-    return restPerform.executeOneAsync(requestMethod, url, script, 1, tClass);
-  }
 
 
 }

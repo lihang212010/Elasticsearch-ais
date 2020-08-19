@@ -558,7 +558,7 @@ public class Find {
    * @param keys  field name
    * @return String script
    */
-  public static String multi_match(Object value, Object... keys) {
+  public static String multi_match(Object value, String... keys) {
     if (StringUtils.isNotEmpty(value) && CollectUtil.isNotEmpty(keys)) {
       String query = " {\n"
           + "          \"multi_match\": {\n"
@@ -590,7 +590,7 @@ public class Find {
    * @return String script
    */
   public static String more_like_this(int min_term_freq, int max_query_terms, Object value,
-      Object... keys) {
+      String... keys) {
     if (StringUtils.isNotEmpty(value) && CollectUtil.isNotEmpty(keys)) {
       String query = "{\n"
           + "          \"more_like_this\": {\n"

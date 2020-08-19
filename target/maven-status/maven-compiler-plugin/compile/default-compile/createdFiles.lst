@@ -2,14 +2,10 @@ org/springframework/boot/elasticsearch/ais/config/Scanner$1.class
 org/springframework/boot/elasticsearch/ais/config/EsClient$1.class
 org/springframework/boot/elasticsearch/ais/staticString/Settings.class
 org/springframework/boot/elasticsearch/ais/utils/JsonUtils.class
-org/springframework/boot/elasticsearch/ais/service/EsAsyncRegistryBean.class
 org/springframework/boot/elasticsearch/ais/utils/StringUtils.class
-org/springframework/boot/elasticsearch/ais/Factory/EsAsyncFactory.class
-org/springframework/boot/elasticsearch/ais/Factory/EsAsyncProxy.class
 org/springframework/boot/elasticsearch/ais/EstemplateCustom.class
 org/springframework/boot/elasticsearch/ais/restClient/RestPerform.class
 org/springframework/boot/elasticsearch/ais/staticString/Script.class
-org/springframework/boot/elasticsearch/ais/annotation/ElasticsearchAsync.class
 org/springframework/boot/elasticsearch/ais/utils/CollectUtil.class
 org/springframework/boot/elasticsearch/ais/staticString/Bulk.class
 org/springframework/boot/elasticsearch/ais/template/POJOTemplate.class

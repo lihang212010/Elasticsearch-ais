@@ -179,73 +179,14 @@ public class EstemplateCustom {
   }
 
 
-  public <T> List<T> excuteAsync(String script, T entity)
-      throws IOException, NoSuchFieldException, IllegalAccessException, InterruptedException {
-    script = this.replaceEntity(script, entity);
-    int index = script.indexOf("\n");
-    String[] s = script.trim().substring(0, index).split("\\s+");
-    return (List<T>) restPerform
-        .executeAsync(s[0], s[1], script.substring(index), 1, entity.getClass());
-  }
 
   public void executeAsync(String method, String url, String script,
       ResponseListener responseListener) throws IOException {
     restPerform.executeAsync(method, url, script, responseListener);
   }
 
-  public <T> List<T> executeAsync(String requestMethod, String url, String script, Class<T> tClass)
-      throws IOException, InterruptedException {
-    ;
-    return restPerform.executeAsync(requestMethod, url, script, 1, tClass);
-  }
-
-  public <T> List<T> excuteAsync(String script, Class<T> tClass) throws IOException {
-    int index = script.indexOf("\n");
-    String[] s = script.trim().substring(0, index).split("\\s+");
-    return restPerform.execute(s[0], s[1], script.substring(index), tClass);
-  }
-
-  public JSONObject excuteJSONAsync(String script) throws IOException, InterruptedException {
-    int index = script.indexOf("\n");
-    String[] s = script.trim().substring(0, index).split("\\s+");
-    return restPerform.executeJSONAsync(s[0], s[1], script.substring(index), 1);
-  }
-
-  public <T> JSONObject excuteJSONAsync(String script, T entity)
-      throws IOException, NoSuchFieldException, IllegalAccessException, InterruptedException {
-    script = this.replaceEntity(script, entity);
-    int index = script.indexOf("\n");
-    String[] s = script.trim().substring(0, index).split("\\s+");
-    return restPerform.executeJSONAsync(s[0], s[1], script.substring(index), 1);
-  }
-
-  public JSONObject executeJSONAsync(String requestMethod, String url, String script)
-      throws IOException, InterruptedException {
-    ;
-    return restPerform.executeJSONAsync(requestMethod, url, script, 1);
-  }
 
 
-  public <T> T excuteOneAsync(String script, Class<T> tClass)
-      throws IOException, InterruptedException {
-    int index = script.indexOf("\n");
-    String[] s = script.trim().substring(0, index).split("\\s+");
-    return restPerform.executeOneAsync(s[0], s[1], script.substring(index), 1, tClass);
-  }
-
-  public <T> T executeOneAsync(String requestMethod, String url, String script, Class<T> tClass)
-      throws IOException, InterruptedException {
-    return restPerform.executeOneAsync(requestMethod, url, script, 1, tClass);
-  }
-
-  public <T> T excuteOneAsync(String script, T entity)
-      throws IOException, NoSuchFieldException, IllegalAccessException, InterruptedException {
-    script = this.replaceEntity(script, entity);
-    int index = script.indexOf("\n");
-    String[] s = script.trim().substring(0, index).split("\\s+");
-    return (T) restPerform
-        .executeOneAsync(s[0], s[1], script.substring(index), 1, entity.getClass());
-  }
 
 
 }
