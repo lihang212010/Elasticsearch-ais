@@ -5,6 +5,7 @@ org/springframework/boot/elasticsearch/ais/utils/JsonUtils.class
 org/springframework/boot/elasticsearch/ais/utils/StringUtils.class
 org/springframework/boot/elasticsearch/ais/EstemplateCustom.class
 org/springframework/boot/elasticsearch/ais/restClient/RestPerform.class
+org/springframework/boot/elasticsearch/ais/Estest.class
 org/springframework/boot/elasticsearch/ais/staticString/Script.class
 org/springframework/boot/elasticsearch/ais/utils/CollectUtil.class
 org/springframework/boot/elasticsearch/ais/staticString/Bulk.class

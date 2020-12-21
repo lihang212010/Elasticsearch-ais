@@ -7,11 +7,11 @@
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/utils/JsonUtils.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Bulk.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/restClient/RestPerform.java
-/root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/service/EsAsyncRegistryBean.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Settings.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Should.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/restClient/RestPerformIpml.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/Factory/EsFactory.java
+/root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/Estest.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/Estemplate.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/staticString/Find.java
 /root/git/spring-boot-data-elasticsearch-ais/src/main/java/org/springframework/boot/elasticsearch/ais/template/POJOTemplate.java

@@ -1,5 +1,9 @@
 package org.springframework.boot.elasticsearch.ais.utils;
 
+import java.util.HashMap;
+import java.util.Map;
+import org.springframework.boot.elasticsearch.ais.Estest;
+
 /**
  * is null? .
  *
@@ -48,4 +52,7 @@ public class StringUtils {
   public static boolean isNotEmpty(Object object) {
     return !isEmpty(object);
   }
+
+  static String a="hello world";
+
 }

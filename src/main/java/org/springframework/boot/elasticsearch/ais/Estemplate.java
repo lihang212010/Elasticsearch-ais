@@ -959,11 +959,11 @@ public class Estemplate {
    * documents.</p>
    *
    * @param default_field field name
-   * @param query_        query script
+   * @param query        query script
    */
-  public void query_string(String default_field, Object query_) {
-    String query = Find.query_string(default_field.trim(), query_);
-    add(query);
+  public void query_string(String default_field, Object query) {
+    String query_ = Find.query_string(default_field.trim(), query);
+    add(query_);
   }
 
   /**
@@ -976,12 +976,12 @@ public class Estemplate {
    * documents.</p>
    *
    * @param default_field field name
-   * @param query_        query script
+   * @param query         query script
    * @param type          must,must_not,filter_must,filter_nust_not
    */
-  public void query_string(String type, String default_field, Object query_) {
-    String query = Find.query_string(default_field.trim(), query_);
-    add(query, type);
+  public void query_string(String type, String default_field, Object query) {
+    String query_ = Find.query_string(default_field.trim(), query);
+    add(query_, type);
   }
 
   /**
